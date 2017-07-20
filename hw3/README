@@ -1,0 +1,8 @@
+To run the program, please do the following:
+moduel load OpenMPI
+make
+srun -n<number of nodes> mul <size of square matrix> <c> <verification>
+
+i.e. srun -n 32 mul 7500 2 0 if you would like to test the performance of 7500 by 7500 matrix multiplication on 32 cores.
+
+srun -n 32 mul 1000 2 1 if you would like to verify the correctness of implementation.
