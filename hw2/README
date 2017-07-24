@@ -1,4 +1,0 @@
-I have commented lu-non-worksharing.cpp in detail(I did not comment the other two as most parts are exactly the same).
-Each program takes three arguments, the dimention of matrix A, the number of threads and verification(0 means no verification).
-To run the program, i.e. ./xxxx 8000 32 0
-To check correctness, i.e. ./xxxx 1000 8 1
